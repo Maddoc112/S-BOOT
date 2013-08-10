@@ -1,8 +1,8 @@
-CC      = arm-hwlee-linux-gnueabi-gcc
-LD      = arm-hwlee-linux-gnueabi-ld
-AR      = arm-hwlee-linux-gnueabi-ar
-OBJCOPY = arm-hwlee-linux-gnueabi-objcopy
-OBJDUMP = arm-hwlee-linux-gnueabi-objdump
+CC      = arm-linux-gcc
+LD      = arm-linux-ld
+AR      = arm-linux-ar
+OBJCOPY = arm-linux-objcopy
+OBJDUMP = arm-linux-objdump
 
 INCLUDEDIR1 	:= $(shell pwd)/include
 INCLUDEDIR2 	:= $(shell pwd)/lib
